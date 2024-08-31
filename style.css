@@ -1,0 +1,35 @@
+:root {
+    --primary-color: #28e98c;
+    --a11y-color: #009950;
+    --text-color: #383838;
+    --color-1: #f2f2f3;
+    --color-2: #afafaf;
+    --color-3: #00bf5f;
+    --color-4: #a0ffe9;
+    --header-font: 'Bricolage Grotesque', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.container {
+    color: var(--text-color);
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: var(--header-font);
+}
+
+input[type=search] {
+    padding: 9px;
+    border: var(--primary-color) 1px solid;
+    outline: var(--primary-color) 2px solid;
+    min-width: 400px;
+}
+
+li+li {
+    margin-top: 10px;
+}
