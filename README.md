@@ -10,5 +10,5 @@ A simple search and filter function with pure JavaScript.
 - Shows items after 400ms and after 3 characters are typed
 
 ## To do:
-[x] Show a message when there are no results
-[ ] A reset button
+- [x] Show a message when there are no results
+- [ ] A reset button
